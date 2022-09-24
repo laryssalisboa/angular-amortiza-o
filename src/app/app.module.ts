@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent { 
   dados: Array<{ id: number, nome: string }> = [];
 
-  constructoir() {
+  constructor() {
     this.dados = [{
       "id": 1 - 1.000,
       "nome": "SAC Amortização"
